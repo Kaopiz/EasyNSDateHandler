@@ -1,0 +1,777 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8DFC59E0275F3388341B162E76C4F0 /* Pods-EasyNSDateHandler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22948ED7542858046974F10000840C40 /* Pods-EasyNSDateHandler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36593F044D8C55E523C71641EC0C8617 /* Pods-EasyNSDateHandler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AF189EA4F68E33C78BE6F40006B945 /* Pods-EasyNSDateHandler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C8FED7F75EE107AE1A4A462A25E0E1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		5C71B079BC76D5576E938A3FBE57332C /* Pods-EasyNSDateHandler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8A845E0EAA101F7C87EAE82C2E7D14 /* Pods-EasyNSDateHandler_Example-dummy.m */; };
+		5CD9E8F3830F81419938E67D4EC30E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		868B87A0054A045F6AF3B0DE00145C6F /* Pods-EasyNSDateHandler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C35D40690614F8CD4E704AADA6DB41 /* Pods-EasyNSDateHandler_Tests-dummy.m */; };
+		90289AA482EF732E82D2B14CE5E5EB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B8FFAA70C537BD0F2AA6C50B8B9C9B44 /* EasyNSDateHandler.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1BDB007A5EACEB25C8C02F4B6A4FB645 /* EasyNSDateHandler.bundle */; };
+		CBBA13887CC33D22AABFD7B32911981A /* EasyNSDateHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54CB18549058C204FBF5B0F0AD70B88B /* EasyNSDateHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E86A1D5FE53802EFF20BE00B5DFD46B3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0208BD40B4673E48B15111E5B5FC444A /* ReplaceMe.m */; };
+		E8B3CD4BCEE0F5331B22153A5EEF0F75 /* EasyNSDateHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD8C0A33BEA5AFBDA803303E7754FFA /* EasyNSDateHandler-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13327808F0AC6CF05A47307E05E048E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C48E3DDF418E781E3466894C1C01B8;
+			remoteInfo = EasyNSDateHandler;
+		};
+		37F68BDD5903A333F5440EF6B1A2C66D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD55A7C899453161E9ED97C3D9E4FB06;
+			remoteInfo = "EasyNSDateHandler-EasyNSDateHandler";
+		};
+		3834F400057936E386031D7B08DFA6B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8C48E3DDF418E781E3466894C1C01B8;
+			remoteInfo = EasyNSDateHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0208BD40B4673E48B15111E5B5FC444A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		108A9F424A7D6206BB080F2C81706F64 /* Pods-EasyNSDateHandler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyNSDateHandler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		1BDB007A5EACEB25C8C02F4B6A4FB645 /* EasyNSDateHandler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyNSDateHandler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F238726D04ACC54A2DFDFF18707EF57 /* Pods-EasyNSDateHandler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNSDateHandler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22948ED7542858046974F10000840C40 /* Pods-EasyNSDateHandler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyNSDateHandler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3FD8C0A33BEA5AFBDA803303E7754FFA /* EasyNSDateHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EasyNSDateHandler-dummy.m"; sourceTree = "<group>"; };
+		4254D249C952008B008946DC346BA480 /* Pods-EasyNSDateHandler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNSDateHandler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		458A14E745BE2653CF9433102D32AA22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5144225DA7F56C8B33B355440B20FB /* Pods-EasyNSDateHandler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNSDateHandler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54CB18549058C204FBF5B0F0AD70B88B /* EasyNSDateHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNSDateHandler-umbrella.h"; sourceTree = "<group>"; };
+		5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EasyNSDateHandler.xcconfig; sourceTree = "<group>"; };
+		5E1FD235369D4E36BBE4A503BAD89EE9 /* EasyNSDateHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EasyNSDateHandler-prefix.pch"; sourceTree = "<group>"; };
+		6BDDE648A0C076716D28C3465754CD0F /* Pods_EasyNSDateHandler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyNSDateHandler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77AF189EA4F68E33C78BE6F40006B945 /* Pods-EasyNSDateHandler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EasyNSDateHandler_Example-umbrella.h"; sourceTree = "<group>"; };
+		821D230025C82796FA8CA59E78C7B06E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF61C9490AE03F853EDB5CEBF5CA19A /* Pods-EasyNSDateHandler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyNSDateHandler_Tests-resources.sh"; sourceTree = "<group>"; };
+		93F77A3C33D9F4EBBDDCA77FB5999CF3 /* Pods-EasyNSDateHandler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyNSDateHandler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9936748FFC814DFCBAA1702B32A49AFF /* Pods-EasyNSDateHandler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyNSDateHandler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9A9902A268276CFC419E74908F29C2F9 /* Pods-EasyNSDateHandler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNSDateHandler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C5099258015D35A65BB8A610F481C2 /* Pods_EasyNSDateHandler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyNSDateHandler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C35D40690614F8CD4E704AADA6DB41 /* Pods-EasyNSDateHandler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyNSDateHandler_Tests-dummy.m"; sourceTree = "<group>"; };
+		AB8A845E0EAA101F7C87EAE82C2E7D14 /* Pods-EasyNSDateHandler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EasyNSDateHandler_Example-dummy.m"; sourceTree = "<group>"; };
+		ABC2E7210F5DF4895C2156E0FC2CFD5F /* Pods-EasyNSDateHandler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EasyNSDateHandler_Example-resources.sh"; sourceTree = "<group>"; };
+		B19F3DBB5F2262B73BA166EF34777893 /* Pods-EasyNSDateHandler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyNSDateHandler_Example.modulemap"; sourceTree = "<group>"; };
+		B6CC3C007FD6E9FECD52309B6F494B45 /* EasyNSDateHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EasyNSDateHandler.modulemap; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DA9888D6A6358364755901463F31E40F /* Pods-EasyNSDateHandler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EasyNSDateHandler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0FB7B256729B8DDE828B12F309EEE58 /* Pods-EasyNSDateHandler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EasyNSDateHandler_Tests.modulemap"; sourceTree = "<group>"; };
+		E2D28C4DADE6771BEB1D14D0269A527A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4E39919E4933E09C2575CD77338C2A0 /* EasyNSDateHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyNSDateHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD6897F51F1CA248E400B85B9CF5339 /* Pods-EasyNSDateHandler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EasyNSDateHandler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF0A31AF2408CE3D8C8AE0F68C111D20 /* Pods-EasyNSDateHandler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EasyNSDateHandler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC80E6BEF4E93F1AEFA4DA38DD3A006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8FED7F75EE107AE1A4A462A25E0E1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE671F52E1948D0326E85661CA51875 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90289AA482EF732E82D2B14CE5E5EB97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E861078441CC3BA1370CE33EDF11725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CD9E8F3830F81419938E67D4EC30E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8C1F2DCB7D6FE059BB613F5986B4ADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37467568B94B5F4796CC9FF8722F1E31 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6CC3C007FD6E9FECD52309B6F494B45 /* EasyNSDateHandler.modulemap */,
+				5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */,
+				3FD8C0A33BEA5AFBDA803303E7754FFA /* EasyNSDateHandler-dummy.m */,
+				5E1FD235369D4E36BBE4A503BAD89EE9 /* EasyNSDateHandler-prefix.pch */,
+				54CB18549058C204FBF5B0F0AD70B88B /* EasyNSDateHandler-umbrella.h */,
+				E2D28C4DADE6771BEB1D14D0269A527A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EasyNSDateHandler";
+			sourceTree = "<group>";
+		};
+		3C99AB4E1087EBDD695E27711672F6CF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A6F3CCCB0B7BC95CEAA252BA31BE6DE7 /* EasyNSDateHandler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				3C99AB4E1087EBDD695E27711672F6CF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B586EDA27C9960B960D0FAD6DE21DF6E /* Products */,
+				7DDB80F06AFD1AB46C7F3A6C09CAEB93 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDB80F06AFD1AB46C7F3A6C09CAEB93 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1668768F8D654EA3FA2E3985204593 /* Pods-EasyNSDateHandler_Example */,
+				D7C17850CAF8839545CFE292C219B08F /* Pods-EasyNSDateHandler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6F3CCCB0B7BC95CEAA252BA31BE6DE7 /* EasyNSDateHandler */ = {
+			isa = PBXGroup;
+			children = (
+				BA47F2995C5E55C745521105EEA9346D /* Pod */,
+				37467568B94B5F4796CC9FF8722F1E31 /* Support Files */,
+			);
+			name = EasyNSDateHandler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AF1668768F8D654EA3FA2E3985204593 /* Pods-EasyNSDateHandler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				821D230025C82796FA8CA59E78C7B06E /* Info.plist */,
+				B19F3DBB5F2262B73BA166EF34777893 /* Pods-EasyNSDateHandler_Example.modulemap */,
+				93F77A3C33D9F4EBBDDCA77FB5999CF3 /* Pods-EasyNSDateHandler_Example-acknowledgements.markdown */,
+				1F238726D04ACC54A2DFDFF18707EF57 /* Pods-EasyNSDateHandler_Example-acknowledgements.plist */,
+				AB8A845E0EAA101F7C87EAE82C2E7D14 /* Pods-EasyNSDateHandler_Example-dummy.m */,
+				9936748FFC814DFCBAA1702B32A49AFF /* Pods-EasyNSDateHandler_Example-frameworks.sh */,
+				ABC2E7210F5DF4895C2156E0FC2CFD5F /* Pods-EasyNSDateHandler_Example-resources.sh */,
+				77AF189EA4F68E33C78BE6F40006B945 /* Pods-EasyNSDateHandler_Example-umbrella.h */,
+				FF0A31AF2408CE3D8C8AE0F68C111D20 /* Pods-EasyNSDateHandler_Example.debug.xcconfig */,
+				4254D249C952008B008946DC346BA480 /* Pods-EasyNSDateHandler_Example.release.xcconfig */,
+			);
+			name = "Pods-EasyNSDateHandler_Example";
+			path = "Target Support Files/Pods-EasyNSDateHandler_Example";
+			sourceTree = "<group>";
+		};
+		B586EDA27C9960B960D0FAD6DE21DF6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BDB007A5EACEB25C8C02F4B6A4FB645 /* EasyNSDateHandler.bundle */,
+				E4E39919E4933E09C2575CD77338C2A0 /* EasyNSDateHandler.framework */,
+				A2C5099258015D35A65BB8A610F481C2 /* Pods_EasyNSDateHandler_Example.framework */,
+				6BDDE648A0C076716D28C3465754CD0F /* Pods_EasyNSDateHandler_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C1861ADA662A7516A2D6485FAA3616 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0208BD40B4673E48B15111E5B5FC444A /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BA47F2995C5E55C745521105EEA9346D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B7C1861ADA662A7516A2D6485FAA3616 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7C17850CAF8839545CFE292C219B08F /* Pods-EasyNSDateHandler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				458A14E745BE2653CF9433102D32AA22 /* Info.plist */,
+				E0FB7B256729B8DDE828B12F309EEE58 /* Pods-EasyNSDateHandler_Tests.modulemap */,
+				FDD6897F51F1CA248E400B85B9CF5339 /* Pods-EasyNSDateHandler_Tests-acknowledgements.markdown */,
+				DA9888D6A6358364755901463F31E40F /* Pods-EasyNSDateHandler_Tests-acknowledgements.plist */,
+				A3C35D40690614F8CD4E704AADA6DB41 /* Pods-EasyNSDateHandler_Tests-dummy.m */,
+				108A9F424A7D6206BB080F2C81706F64 /* Pods-EasyNSDateHandler_Tests-frameworks.sh */,
+				8DF61C9490AE03F853EDB5CEBF5CA19A /* Pods-EasyNSDateHandler_Tests-resources.sh */,
+				22948ED7542858046974F10000840C40 /* Pods-EasyNSDateHandler_Tests-umbrella.h */,
+				9A9902A268276CFC419E74908F29C2F9 /* Pods-EasyNSDateHandler_Tests.debug.xcconfig */,
+				4A5144225DA7F56C8B33B355440B20FB /* Pods-EasyNSDateHandler_Tests.release.xcconfig */,
+			);
+			name = "Pods-EasyNSDateHandler_Tests";
+			path = "Target Support Files/Pods-EasyNSDateHandler_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0876ECA6BCDBD17C3EA2A39316C9E8D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8DFC59E0275F3388341B162E76C4F0 /* Pods-EasyNSDateHandler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31D3E045B7048CCE84687CC2A7E05502 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBA13887CC33D22AABFD7B32911981A /* EasyNSDateHandler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6D7D7F164594C24300DC5111DA6D04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36593F044D8C55E523C71641EC0C8617 /* Pods-EasyNSDateHandler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6C8FF51309CF2F23F225352419DF83F9 /* Pods-EasyNSDateHandler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0EC16069541FD33381B3B601CF52E /* Build configuration list for PBXNativeTarget "Pods-EasyNSDateHandler_Tests" */;
+			buildPhases = (
+				190D0DAE72C94FEE7126BDB52BAD70E8 /* Sources */,
+				0AC80E6BEF4E93F1AEFA4DA38DD3A006 /* Frameworks */,
+				0876ECA6BCDBD17C3EA2A39316C9E8D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF3AD1A8ED85D39C3CCA9EFB17683962 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyNSDateHandler_Tests";
+			productName = "Pods-EasyNSDateHandler_Tests";
+			productReference = 6BDDE648A0C076716D28C3465754CD0F /* Pods_EasyNSDateHandler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD55A7C899453161E9ED97C3D9E4FB06 /* EasyNSDateHandler-EasyNSDateHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F37D020863A1B4A107ACF979A0E4261B /* Build configuration list for PBXNativeTarget "EasyNSDateHandler-EasyNSDateHandler" */;
+			buildPhases = (
+				028150AE33DF57216B2E69611F305557 /* Sources */,
+				B8C1F2DCB7D6FE059BB613F5986B4ADE /* Frameworks */,
+				A55AC0A698EF0ECC25356105CD6DF463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EasyNSDateHandler-EasyNSDateHandler";
+			productName = "EasyNSDateHandler-EasyNSDateHandler";
+			productReference = 1BDB007A5EACEB25C8C02F4B6A4FB645 /* EasyNSDateHandler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C8C48E3DDF418E781E3466894C1C01B8 /* EasyNSDateHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF0FA7E59691F3A20080D74FFF43D9 /* Build configuration list for PBXNativeTarget "EasyNSDateHandler" */;
+			buildPhases = (
+				C4BD4B1F257038FBDADB37B0F44A5E66 /* Sources */,
+				7E861078441CC3BA1370CE33EDF11725 /* Frameworks */,
+				2CE5BEA3DE15F7088D6C9ABD86959FBF /* Resources */,
+				31D3E045B7048CCE84687CC2A7E05502 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78DDFED9E0F5BF2C62C8768315639ED9 /* PBXTargetDependency */,
+			);
+			name = EasyNSDateHandler;
+			productName = EasyNSDateHandler;
+			productReference = E4E39919E4933E09C2575CD77338C2A0 /* EasyNSDateHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D7E74B4440E11DB5438C24833DCC0F0F /* Pods-EasyNSDateHandler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A21E3F892FEE4C125EEC5E2CD771966D /* Build configuration list for PBXNativeTarget "Pods-EasyNSDateHandler_Example" */;
+			buildPhases = (
+				044EBE0B13294651826A55FF634B071A /* Sources */,
+				7CE671F52E1948D0326E85661CA51875 /* Frameworks */,
+				AD6D7D7F164594C24300DC5111DA6D04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC06C9D5D8357DEAFDCCF4C733D8C955 /* PBXTargetDependency */,
+			);
+			name = "Pods-EasyNSDateHandler_Example";
+			productName = "Pods-EasyNSDateHandler_Example";
+			productReference = A2C5099258015D35A65BB8A610F481C2 /* Pods_EasyNSDateHandler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B586EDA27C9960B960D0FAD6DE21DF6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8C48E3DDF418E781E3466894C1C01B8 /* EasyNSDateHandler */,
+				BD55A7C899453161E9ED97C3D9E4FB06 /* EasyNSDateHandler-EasyNSDateHandler */,
+				D7E74B4440E11DB5438C24833DCC0F0F /* Pods-EasyNSDateHandler_Example */,
+				6C8FF51309CF2F23F225352419DF83F9 /* Pods-EasyNSDateHandler_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CE5BEA3DE15F7088D6C9ABD86959FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FFAA70C537BD0F2AA6C50B8B9C9B44 /* EasyNSDateHandler.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A55AC0A698EF0ECC25356105CD6DF463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028150AE33DF57216B2E69611F305557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044EBE0B13294651826A55FF634B071A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C71B079BC76D5576E938A3FBE57332C /* Pods-EasyNSDateHandler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190D0DAE72C94FEE7126BDB52BAD70E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868B87A0054A045F6AF3B0DE00145C6F /* Pods-EasyNSDateHandler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BD4B1F257038FBDADB37B0F44A5E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8B3CD4BCEE0F5331B22153A5EEF0F75 /* EasyNSDateHandler-dummy.m in Sources */,
+				E86A1D5FE53802EFF20BE00B5DFD46B3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78DDFED9E0F5BF2C62C8768315639ED9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EasyNSDateHandler-EasyNSDateHandler";
+			target = BD55A7C899453161E9ED97C3D9E4FB06 /* EasyNSDateHandler-EasyNSDateHandler */;
+			targetProxy = 37F68BDD5903A333F5440EF6B1A2C66D /* PBXContainerItemProxy */;
+		};
+		CF3AD1A8ED85D39C3CCA9EFB17683962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNSDateHandler;
+			target = C8C48E3DDF418E781E3466894C1C01B8 /* EasyNSDateHandler */;
+			targetProxy = 3834F400057936E386031D7B08DFA6B1 /* PBXContainerItemProxy */;
+		};
+		DC06C9D5D8357DEAFDCCF4C733D8C955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EasyNSDateHandler;
+			target = C8C48E3DDF418E781E3466894C1C01B8 /* EasyNSDateHandler */;
+			targetProxy = 13327808F0AC6CF05A47307E05E048E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		256B967028C4B6512608C53E68600F12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0A31AF2408CE3D8C8AE0F68C111D20 /* Pods-EasyNSDateHandler_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNSDateHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNSDateHandler_Example/Pods-EasyNSDateHandler_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyNSDateHandler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54ECF59CD953B72E187CDF0D9FC8CA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A9902A268276CFC419E74908F29C2F9 /* Pods-EasyNSDateHandler_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNSDateHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNSDateHandler_Tests/Pods-EasyNSDateHandler_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyNSDateHandler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FAEED643E095B595AA8667033181D80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EasyNSDateHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		ADA0821992B04562491376905F8110AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EasyNSDateHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C4E51AC7354355F1A28291531CABD390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNSDateHandler/EasyNSDateHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNSDateHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyNSDateHandler/EasyNSDateHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EasyNSDateHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC84F03199BF2DCAFA4BDF2E5CA89488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5144225DA7F56C8B33B355440B20FB /* Pods-EasyNSDateHandler_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNSDateHandler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNSDateHandler_Tests/Pods-EasyNSDateHandler_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyNSDateHandler_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7F50796AD844F7C56F70878392E1679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B274226803A284A4254E7B8000A8ADC /* EasyNSDateHandler.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EasyNSDateHandler/EasyNSDateHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EasyNSDateHandler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EasyNSDateHandler/EasyNSDateHandler.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EasyNSDateHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FD968678AEBC24056D11FFD1AC3875B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4254D249C952008B008946DC346BA480 /* Pods-EasyNSDateHandler_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EasyNSDateHandler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EasyNSDateHandler_Example/Pods-EasyNSDateHandler_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_EasyNSDateHandler_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF0FA7E59691F3A20080D74FFF43D9 /* Build configuration list for PBXNativeTarget "EasyNSDateHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7F50796AD844F7C56F70878392E1679 /* Debug */,
+				C4E51AC7354355F1A28291531CABD390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0EC16069541FD33381B3B601CF52E /* Build configuration list for PBXNativeTarget "Pods-EasyNSDateHandler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54ECF59CD953B72E187CDF0D9FC8CA14 /* Debug */,
+				CC84F03199BF2DCAFA4BDF2E5CA89488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A21E3F892FEE4C125EEC5E2CD771966D /* Build configuration list for PBXNativeTarget "Pods-EasyNSDateHandler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256B967028C4B6512608C53E68600F12 /* Debug */,
+				FD968678AEBC24056D11FFD1AC3875B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F37D020863A1B4A107ACF979A0E4261B /* Build configuration list for PBXNativeTarget "EasyNSDateHandler-EasyNSDateHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA0821992B04562491376905F8110AD /* Debug */,
+				9FAEED643E095B595AA8667033181D80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

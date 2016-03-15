@@ -1,0 +1,6 @@
+framework module Pods_EasyNSDateHandler_Tests {
+  umbrella header "Pods-EasyNSDateHandler_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

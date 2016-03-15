@@ -1,0 +1,14 @@
+PODS:
+  - EasyNSDateHandler (0.1.0)
+
+DEPENDENCIES:
+  - EasyNSDateHandler (from `../`)
+
+EXTERNAL SOURCES:
+  EasyNSDateHandler:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EasyNSDateHandler: 67f6a0fd71a47942a77895949e57a62693d0ae57
+
+COCOAPODS: 0.39.0

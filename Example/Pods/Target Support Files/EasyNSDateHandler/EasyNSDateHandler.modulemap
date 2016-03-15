@@ -1,0 +1,6 @@
+framework module EasyNSDateHandler {
+  umbrella header "EasyNSDateHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

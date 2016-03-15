@@ -1,0 +1,25 @@
+{
+  "name": "EasyNSDateHandler",
+  "version": "0.1.0",
+  "summary": "A short description of EasyNSDateHandler.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/EasyNSDateHandler",
+  "license": "MIT",
+  "authors": {
+    "Minh Hoang": "minhnh.da@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/EasyNSDateHandler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EasyNSDateHandler": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}
