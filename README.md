@@ -11,6 +11,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS ~> 6.0 or later
+
 ## Installation
 
 EasyNSDateHandler is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,9 +22,39 @@ it, simply add the following line to your Podfile:
 pod "EasyNSDateHandler"
 ```
 
+## Usage
+
+* Include NSDate+EasyDatetimeHandler.h header
+
+* Create a NSDate from given year, month, date
+
+```objective-c
++ (NSDate *)dateWithYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
+```
+
+* Get NSString output from NSDate object
+
+```objective-c
+- (NSString *)toStringWithDateFormat:(NSDateToStringFormatOrderByComponent)format dateComponentSeparator:(NSString *)separator;
+```
+
+The NSDateToStringFormatOrderByComponent enum as below
+```objective-c
+typedef NS_ENUM(NSInteger, NSDateToStringFormatOrderByComponent) {
+NSDateToStringFormatOrderByYearMonthDate,
+NSDateToStringFormatOrderByYearDateMonth,
+NSDateToStringFormatOrderByMonthDateYear,
+NSDateToStringFormatOrderByDateMonthYear,
+NSDateToStringFormatOrderByYearMonth,
+NSDateToStringFormatOrderByMonthYear,
+NSDateToStringFormatOrderByDateMonth,
+NSDateToStringFormatOrderByMonthDate
+};
+```
+
 ## Author
 
-Minh Hoang, minhnh.da@gmail.com
+Kaopiz Software Co., Ltd.
 
 ## License
 

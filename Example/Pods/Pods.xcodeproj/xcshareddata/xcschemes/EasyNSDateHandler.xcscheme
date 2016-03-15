@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E86507CD9E19173DF548C90E'
+               BlueprintIdentifier = '19EC9AEC3A037E02C0533DE2'
                BlueprintName = 'EasyNSDateHandler'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'EasyNSDateHandler.framework'>

@@ -7,6 +7,7 @@
 //
 
 #import "KViewController.h"
+#import "NSDate+EasyDatetimeHandler.h"
 
 @interface KViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSDate *date = [NSDate dateWithYear:2016 month:3 day:15];
+    NSLog(@"%@", [date toStringWithDateFormat:NSDateToStringFormatOrderByYearDateMonth dateComponentSeparator:@"🍥"]);
 }
 
 - (void)didReceiveMemoryWarning

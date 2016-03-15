@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "EasyNSDateHandler"
   s.version          = "0.1.0"
-  s.summary          = "This library is created for avoiding boilerplate code when generating NSDate from year month date and when getting string output from NSDate."
+  s.summary          = "This library is created for avoiding boilerplate code when dealing with NSDate creation and output."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
