@@ -22,6 +22,8 @@ it, simply add the following line to your Podfile:
 pod "EasyNSDateHandler"
 ```
 
+Or just copy files from Pod/Classes into your project.
+
 ## Usage
 
 * Include NSDate+EasyDatetimeHandler.h header
