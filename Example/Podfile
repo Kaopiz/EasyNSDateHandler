@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'EasyNSDateHandler_Example', :exclusive => true do
+  pod 'EasyNSDateHandler', :path => '../'
+end
+
+target 'EasyNSDateHandler_Tests', :exclusive => true do
+  pod 'EasyNSDateHandler', :path => '../'
+
+  
+end
