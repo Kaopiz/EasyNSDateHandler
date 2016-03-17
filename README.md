@@ -5,9 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/EasyNSDateHandler.svg?style=flat)](http://cocoapods.org/pods/EasyNSDateHandler)
 [![Platform](https://img.shields.io/cocoapods/p/EasyNSDateHandler.svg?style=flat)](http://cocoapods.org/pods/EasyNSDateHandler)
 
-## Usage
+## What is this for ?
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+This library is created for avoiding boilerplate code when dealing with NSDate creation and output.
+When creating a NSDate from day month year, you have to declare a NSCalendar and NSDateComponent, when you'd like to get a NSString from a NSDate, you have to create a NSDateFormatter. This will save you time from creating those one-time-used objects.
 
 ## Requirements
 
